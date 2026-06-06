@@ -40,6 +40,13 @@ width:90dvw;
   font-size: clamp(1rem, 2.5vw, 2rem);
   line-height: 1.5;
 }
+.text figcaption {
+  width: 25dvw;
+  margin: 0 auto;
+  color: #aa0000;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  line-height: 1.5;
+}
 #sec2 {
 justify-content: space-evenly;
 width:100%;
@@ -66,7 +73,10 @@ width: 25dvw;
 </div>
 <img class="divider" src="Images/divider.png">
 <div id="sec2">
-  <div><img class="imagesec2" src="Images/Pages.png"><br>Lorem Ipsum Dolor Amet.</div>
+  <figure>
+    <img class="imagesec2" src="Images/Pages.png">
+    <figcaption class="text">Lorem ipsum dolor amet. Lorem Ipsum Dolor Amet.</figcaption>
+</figure>
   <img class="imagesec2" src="Images/Eye.png">
   <img class="imagesec2" src="Images/Guitar.png">
 </div>
