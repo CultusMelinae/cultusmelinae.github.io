@@ -41,7 +41,7 @@ width:90dvw;
   line-height: 1.5;
 }
 figcaption.text {
-  width: 25dvw;
+  width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
   margin: none;
   color: #aa0000;
   font-size: clamp(1rem, 2.25vw, 1.75rem);
@@ -58,8 +58,8 @@ width:25dvw;
 float:left;
 }
 .imagesec2 {
-height: 25dvw;
-width: 25dvw;
+height: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
 }
 figure {
 width: 25dvw;
