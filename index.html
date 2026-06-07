@@ -1,99 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cultus Melinae</title>
 <meta name="keywords" content="Cultus, Melinae, Cultus Melinae, Cultus Melinae Community, Cultus Melinae Band, Musica Melinae">
 <style>
-  #header {
-  color: #aa0000;
-  text-align: center;
-  font-size: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#logolarge {
-height:35dvw;
-width:75dvw;
-text-align:center;
-display:block;
-margin:auto;
-}
-body {
-margin: 0;
-background-color: #000000;
-height: 200dvh;
-}
-.divider {
-margin-left:auto;
-margin-right:auto;
-margin-top:2dvw;
-margin-bottom:2dvw;
-display:block;
-height: 5.625dvw;
-width:90dvw;
-}
-.text {
-  width: 85dvw;
-  margin: 0 auto;
-  color: #aa0000;
-  font-size: clamp(1rem, 2.5vw, 2rem);
-  line-height: 1.2;
-}
-figcaption.text {
-  width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
-  margin: 0 auto;
-  color: #aa0000;
-  font-size: clamp(0.75rem, 1.25vw, 1.5rem);
-  line-height: 1.2;
-}
-#sec2 {
-justify-content: space-evenly;
-width:100%;
-display:flex;
-}
-.imagesec1 {
-height: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
-width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
-float:left;
-margin-left: 7.5dvw;
-}
-.imagesec2 {
-height: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
-width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
-}
-figure {
-margin: 0;
-}
-a {color: #00aa00;
-text-decoration: none;}
-a:hover {
-    color: #00ff00;text-decoration: underline;
-}
+  body {
+    margin: 0;
+    background: #000;
+    color: #aa0000;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    background: #110000;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #330000;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto 1.25rem;
+    max-width: 90vw;
+    height: auto;
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+  }
+  .lead {
+    margin: 1rem auto 0;
+    max-width: 800px;
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    color: #f2b3b3;
+  }
+  nav {
+    margin-top: 1.5rem;
+  }
+  nav a {
+    color: #00cc66;
+    margin: 0 0.75rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav a:hover {
+    color: #00ff88;
+    text-decoration: underline;
+  }
+  .section {
+    padding: 3rem 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .section:nth-of-type(even) {
+    background: #080000;
+  }
+  h2 {
+    margin-top: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+  p {
+    max-width: 900px;
+    margin: 1rem 0;
+    color: #e6b3b3;
+  }
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  .card {
+    background: #120000;
+    border: 1px solid #330000;
+    border-radius: 18px;
+    padding: 1.25rem;
+  }
+  .card h3 {
+    margin-top: 0;
+    color: #ff9999;
+  }
+  .divider {
+    display: block;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+  }
+  .imagesec2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 14px;
+  }
+  figure {
+    margin: 0;
+  }
+  figcaption {
+    margin-top: 0.75rem;
+    color: #d0a0a0;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    text-align: center;
+  }
+  a.contact-link {
+    color: #00aa00;
+  }
+  a.contact-link:hover {
+    color: #00ff00;
+    text-decoration: underline;
+  }
+  footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #888;
+    font-size: 0.95rem;
+  }
 </style>
 </head>
 <body>
-<div id="header"></div>
-<img id="logolarge" src="Images/redonblacklogo.png">
-<img class="divider" src="Images/divider.png">
-<img class="imagesec1" src="Images/M.png">
-<div class="text">
-  Welcome to Cultus Melinae! Cultus Melinae is a friendly community of around 50 members. Cultus Melinae is a place where you can contribute to the "cult", make friends, or just hang out with the members.
-</div>
-<img class="divider" src="../Images/divider.png">
-<div id="sec2">
-  <figure>
-    <img class="imagesec2" src="Images/Pages.png">
-    <figcaption class="text">If you want to know more about us. Consider reading our documents.</figcaption>
-  </figure>
-  <figure>
-    <img class="imagesec2" src="Images/Eye.png">
-    <figcaption class="text">Intrested in Cultus Melinae and want to join? <a href="mailto:cultusmelinae@gmail.com">Send us an email!</a></figcaption>
-  </figure>
-  <figure>
-    <img class="imagesec2" src="Images/Guitar.png">
-    <figcaption class="text">We have a band called Musica Melinae. If you want to be part of it, fill in this form.</figcaption>
-  </figure>
-</div>
-</body></html>
+<header>
+  <img class="logo" src="Images/redonblacklogo.png" alt="Cultus Melinae logo">
+  <h1>Cultus Melinae</h1>
+  <p class="lead">A welcoming community for friends, music, and creative connection.</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#join">Join</a>
+    <a href="#band">Band</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="about" class="section">
+    <h2>Who we are</h2>
+    <p>Cultus Melinae is a friendly community of around 50 members. We connect through shared interests, creative activities, and music. If you want to contribute, make friends, or just hang out, you're welcome here.</p>
+    <img class="divider" src="Images/divider.png" alt="divider">
+  </section>
+  <section class="section">
+    <div class="grid">
+      <div class="card">
+        <h3>Community</h3>
+        <p>Join conversations, events, and projects with people who enjoy culture, creativity, and collaboration.</p>
+      </div>
+      <div class="card">
+        <h3>Creativity</h3>
+        <p>Share your ideas, explore new art and music, and help shape what Cultus Melinae becomes next.</p>
+      </div>
+      <div class="card">
+        <h3>Support</h3>
+        <p>Find a welcoming group that listens, encourages, and has fun together.</p>
+      </div>
+    </div>
+  </section>
+  <section id="join" class="section">
+    <h2>How to join</h2>
+    <p>We are always happy to welcome new members. You can start by emailing us, checking our documents, or asking about the band.</p>
+    <div class="grid">
+      <figure>
+        <img class="imagesec2" src="Images/Eye.png" alt="Interested in joining">
+        <figcaption>Interested in Cultus Melinae? Email us to get started.</figcaption>
+      </figure>
+      <figure>
+        <img class="imagesec2" src="Images/Pages.png" alt="Community info">
+        <figcaption>Read our documents to learn more about the community and how we operate.</figcaption>
+      </figure>
+      <figure>
+        <img class="imagesec2" src="Images/Guitar.png" alt="Musica Melinae band">
+        <figcaption>Want to be part of Musica Melinae? Tell us your instrument and music interests.</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section id="band" class="section">
+    <h2>Musica Melinae</h2>
+    <p>Musica Melinae is our band. We rehearse, create music, and perform together. If you play an instrument or want to sing, we’d love to hear from you.</p>
+    <img class="divider" src="Images/divider.png" alt="divider">
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>If you want to join, collaborate, or ask questions, send us an email and we’ll reply soon.</p>
+    <p><strong>Email:</strong> <a class="contact-link" href="mailto:cultusmelinae@gmail.com">cultusmelinae@gmail.com</a></p>
+  </section>
+</main>
+<footer>
+  Made with care by Cultus Melinae. Connect, create, and enjoy the music.
+</footer>
+</body>
+</html>
