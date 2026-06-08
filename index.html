@@ -84,7 +84,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1dvw 1dvw;
+  gap: 1.5dvw 1.5dvw;
   width: 85%;
   margin: 0 auto;
 }
@@ -115,6 +115,24 @@ a:hover {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
 }
+.image1sec3 {
+height: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+border-radius: 1.5dvw;
+float: left;
+}
+.image2sec3 {
+height: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+border-radius: 1.5dvw;
+float: right;
+}
+.image3sec3 {
+height: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
+border-radius: 1.5dvw;
+float: none;
+}
 </style>
 </head>
 <body>
@@ -143,13 +161,13 @@ a:hover {
 <img class="divider" src="../Images/divider.png">
 <div class="grid-container">
   <div class="grid-item item-1">
-    Item 1
+    <img class="image1sec3" src="Images/Guitar.png">
   </div>
   <div class="grid-item item-2">
-    Item 2
+    <img class="image2sec3" src="Images/Guitar.png">
   </div>
   <div class="grid-item item-3">
-    Item 3
+    <img class="image3sec3" src="Images/Guitar.png">
   </div>
 </div>
 </body></html>
