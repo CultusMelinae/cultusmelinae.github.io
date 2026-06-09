@@ -96,19 +96,19 @@ a:hover {
 .item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  justify-self: start;
+  float: none;
 }
 
 .item-2 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  justify-self: end;
+  float: none;
 }
 
 .item-3 {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
-  justify-self: none;
+  float: none;
 }
 .image1sec3 {
 height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
