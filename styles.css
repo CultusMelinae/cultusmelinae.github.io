@@ -79,8 +79,8 @@ a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1.5dvw 1.5dvw;
-  width: 90%;
-  margin: 0 auto;
+  width: 90dvw;
+  justify-items: center;
 }
 
 .grid-item {
