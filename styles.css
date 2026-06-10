@@ -11,12 +11,13 @@
 .navbar li a {
   display: block;
   color: #aa0000;
-  padding: 1dvw 1dvw;
+  padding: 1.5dvw 1.5dvw;
   text-decoration: none;
   font-size: clamp(0.75rem, 1.25vw, 1.5rem);
 }
 .navbar li a:hover {
   background-color: #800000;
+  color: #bf0000;
 }
 #logolarge {
 height:35dvw;
