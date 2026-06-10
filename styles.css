@@ -89,6 +89,7 @@ outline-style: solid;
 color: #bf0000;
 background-color: #550000;
 width: 80dvw;
+justify-self: center;
 }
 .image1sec3 {
 height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
