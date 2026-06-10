@@ -2,7 +2,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #005500;
+  background-color: #500000;
   display: flex;
   justify-content: center;
   position: sticky;
@@ -10,14 +10,14 @@
 }
 .navbar li a {
   display: block;
-  color: #00aa00;
+  color: #aa0000;
   padding: 1.5dvw 1.5dvw;
   text-decoration: none;
   font-size: clamp(0.75rem, 1.25vw, 1.5rem);
 }
 .navbar li a:hover {
-  background-color: #008000;
-  color: #00bf00;
+  background-color: #800000;
+  color: #bf0000;
 }
 #logolarge {
 height:35dvw;
