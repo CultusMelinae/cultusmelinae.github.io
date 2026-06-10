@@ -78,12 +78,14 @@ a:hover {
   display: flex;
   justify-items: center;
   flex-wrap: wrap;
+  max-width: 90%;
 }
 .sec3box {
-margin: 1dvw;
+margin: 4dvw 0;
 padding: 2dvw;
 outline-color: #400000;
 outline-width: 1dvw;
+border-radius: 1dvw;
 outline-style: solid;
 color: #bf0000;
 background-color: #550000;
