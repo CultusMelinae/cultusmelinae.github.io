@@ -24,7 +24,7 @@ height:35dvw;
 width:75dvw;
 text-align:center;
 display:block;
-margin:0 auto 3.5dvw;
+margin:3.5dvw auto 0;
 }
 body {
 margin: 0;
