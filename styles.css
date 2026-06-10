@@ -89,9 +89,10 @@ border-radius: 1dvw;
 outline-style: solid;
 color: #bf0000;
 background-color: #550000;
+  font-size: clamp(0.75rem, 1.25vw, 1.5rem);
+  line-height: 1.2;
 width: 80dvw;
 min-height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
-
 }
 .image1sec3 {
 height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
