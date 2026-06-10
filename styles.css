@@ -78,6 +78,7 @@ a:hover {
   display: flex;
   justify-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .sec3box {
 margin: 4dvw auto;
@@ -89,7 +90,6 @@ outline-style: solid;
 color: #bf0000;
 background-color: #550000;
 width: 80dvw;
-justify-self: center;
 }
 .image1sec3 {
 height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
