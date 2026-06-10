@@ -80,7 +80,7 @@ a:hover {
   flex-wrap: wrap;
 }
 .sec3box {
-margin: 4dvw 0;
+margin: 4dvw auto;
 padding: 2dvw;
 outline-color: #400000;
 outline-width: 1dvw;
