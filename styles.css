@@ -88,7 +88,7 @@ border-radius: 1dvw;
 outline-style: solid;
 color: #bf0000;
 background-color: #550000;
-max-width: 80dvw;
+width: 80dvw;
 }
 .image1sec3 {
 height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
