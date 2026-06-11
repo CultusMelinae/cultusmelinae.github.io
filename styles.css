@@ -111,6 +111,7 @@ height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
 width: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
 border-radius: 1.5dvw;
 float: left;
+margin-right:
 }
 .image2sec3 {
 height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
