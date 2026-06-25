@@ -43,7 +43,7 @@ width:90dvw;
   width: 85dvw;
   margin: 0 auto;
   color: #aa0000;
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: 1rem;
   line-height: 1.2;
 }
 figcaption.text {
