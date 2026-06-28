@@ -77,9 +77,11 @@ border-radius: 1dvw;
 outline-color: #400000;
 outline-width: 1dvw;
 outline-style: solid;
+
+transition: .25s ease;
 }
-figure:hover {
-transform: scale(1.1);
+figure:hover{
+    transform:translateY(-6px);
 }
 a {color: #00aa00;
 text-decoration: none;}
