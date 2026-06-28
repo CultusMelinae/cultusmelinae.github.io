@@ -13,7 +13,7 @@
   color: #000000;
   padding: 1.5dvw 1.5dvw;
   text-decoration: none;
-  font-size: clamp(0.75rem, 1.25vw, 1.5rem);
+  font-size: 1rem
 }
 .navbar li a:hover {
   background-color: #bf0000;
@@ -50,7 +50,7 @@ figcaption.text {
   width: clamp(10dvw, calc((25dvw + 25dvh) / 2), 25dvw);
   margin: 0 auto;
   color: #bf0000;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1.2;
 }
 #sec2 {
@@ -101,7 +101,7 @@ border-radius: 1dvw;
 outline-style: solid;
 color: #bf0000;
 background-color: #550000;
-font-size: 0.75rem;
+font-size: 1rem;
 line-height: 1.2;
 width: 80dvw;
 min-height: clamp(7.5dvw, calc((20dvw + 20dvh) / 2), 20dvw);
