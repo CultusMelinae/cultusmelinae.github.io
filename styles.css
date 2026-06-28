@@ -1,24 +1,24 @@
 .navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #aa0000;
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  top: 0px;
-}
-.navbar li a {
-  display: block;
-  color: #000000;
-  padding: 1.5dvw 1.5dvw;
-  text-decoration: none;
-  font-size: 1rem
-}
-.navbar li a:hover {
-  background-color: #bf0000;
-  color: #000000;
-}
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #111;
+      border-bottom: 2px solid #700000;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      }
+
+      .navbar a {
+      color: #ddd;
+      font-weight: 600;
+      transition: color .2s ease;
+      }
+
+      .navbar a:hover {
+      color: #b30000;
+      background: none;
+      }
 #logolarge {
 height:35dvw;
 width:75dvw;
